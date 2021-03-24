@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Input, Checkbox, Layout } from 'antd';
+import { Button, Input, Layout } from 'antd';
 
 const { Content } = Layout;
 

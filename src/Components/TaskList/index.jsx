@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Input, Checkbox, Layout } from 'antd';
+import { Layout } from 'antd';
 import TaskItem from '../TaskItem';
 
 const { Content } = Layout;
