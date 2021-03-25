@@ -1,4 +1,4 @@
-import { TASK_ADD, TASK_TOGGLE, TASK_DELETE, TASK_UPDATE } from '../Contents/ActionType';
+import { TASK_ADD, TASK_DELETE, TASK_UPDATE, TASK_COMPLETE } from '../Contents/ActionType';
 
 const initialState = JSON.parse(localStorage.getItem('data')) || [];
 
@@ -16,7 +16,7 @@ const tasks = (state = initialState, action) => {
       ];
       return newState;
 
-    case TASK_TOGGLE:
+    case TASK_COMPLETE:
       newState = state.map((todo) => (
         todo.id === action.payload
           ? { ...todo, isCompleted: !todo.isCompleted }

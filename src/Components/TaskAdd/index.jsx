@@ -4,25 +4,6 @@ import { Input, Button, Layout } from 'antd';
 import { addTask } from '../../Actions';
 const { Content } = Layout;
 
-// const TaskAdd = () => {
-//         return (
-//             <Content 
-//         className="site-layout-background"
-//         style={{
-//           display: 'flex',
-//           margin: '20px 16px',
-//           padding: 20,
-//         }}
-//       >
-//           <Input />
-//           <Button type="submit">Добаить</Button>
-//        </Content>
-//         )
-// };
-
-// export default TaskAdd;
-
-
 class TaskAdd extends React.Component {
   constructor(props) {
     super(props);  
